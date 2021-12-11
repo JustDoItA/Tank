@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+    <option name="COMMAND_LINE_OPTIONS" value="-XX:MaxPermSize=2048m -Xmx2048m -XX:MaxHeapSize=2048m" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f873d8ef-cce8-4dfc-8db0-33b4ac7bcaf1" name="Default Changelist" comment="抽象模式">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/META-INF/Tank.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/audio/explode.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/audio/tank_fire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/audio/tank_move.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/audio/war1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/JUnitTest/ImageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Audio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Bullet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/DefaultFireStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Dir.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Explode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/FireStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/FourDirFireStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/PropertyMgr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/ResourceMgr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Tank$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/TankFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/pattern/TankFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/BaseBullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/BaseExplode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/BaseTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/DefaultFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/GameFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/ReactTank$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/ReactTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/RectBullet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/RectBullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/RectExplode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/com/study/tank/abstracfactory/RectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/BadTank1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/BadTank2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/GoodTank1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/GoodTank2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/bulletD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/bulletL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/bulletR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/bulletU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/bulletU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/e9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/missileLD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/missileLU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/missileRD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/missileRU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/square6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankLD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankLU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankRD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankRU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tank/images/tankU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/explode.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/tank_fire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/tank_move.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/war1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/JUnitTest/ImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/DefaultFireStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Dir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/FireStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/FourDirFireStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/PropertyMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/ResourceMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/pattern/TankFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/BaseBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/BaseExplode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/BaseTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/DefaultFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/GameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/ReactTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/RectBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/RectExplode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/tank/abstracfactory/RectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BadTank1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BadTank2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/GoodTank1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/GoodTank2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bulletD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bulletL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bulletR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bulletU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bulletU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/e9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/missileLD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/missileLU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/missileRD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/missileRU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/square6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankLD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankLU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankRD.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankRU.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tankU.gif" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="Test" />
+  </component>
+  <component name="ProjectId" id="21ADZykJrST8iwTe89ROnA9yNoj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.study.tank.abstracfactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.tank.abstracfactory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\SPRING-SRC\Tank\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.pattern.Main" />
+      <module name="Tank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.JUnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.JUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.study.JUnitTest.ImageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ImageTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f873d8ef-cce8-4dfc-8db0-33b4ac7bcaf1" name="Default Changelist" comment="" />
+      <created>1637375057342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637375057342</updated>
+      <workItem from="1637375060170" duration="37600000" />
+      <workItem from="1637584036798" duration="8972000" />
+      <workItem from="1637980347977" duration="11033000" />
+      <workItem from="1639191110011" duration="11090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="抽象模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象模式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637591018856">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="410" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1637591018856" />
+    <state x="427" y="198" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1637980773424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="427" y="198" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1637980773424" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1639198147776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1639198147776" />
+    <state x="294" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639196303559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="294" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1639196303559" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639196398582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1639196398582" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1639211466722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1639211466722" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1639211273868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1639211273868" />
+    <state width="1073" height="139" key="GridCell.Tab.0.bottom" timestamp="1639211466951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1073" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639211466951" />
+    <state width="1073" height="139" key="GridCell.Tab.0.center" timestamp="1639211466951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1073" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1639211466951" />
+    <state width="1073" height="139" key="GridCell.Tab.0.left" timestamp="1639211466950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1073" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1639211466950" />
+    <state width="1073" height="139" key="GridCell.Tab.0.right" timestamp="1639211466951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1073" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1639211466951" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1637464645330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1366.728@0.0.1366.728" timestamp="1637464645330" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1639210984674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1639210984674" />
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1639191110088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1639191110088" />
+    <state x="381" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1637465134202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1637465134202" />
+    <state x="359" y="0" width="647" height="728" key="find.popup" timestamp="1637466905612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1637466905612" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1637481199288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1637481199288" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1637999175869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1637999175869" />
+  </component>
+</project>
